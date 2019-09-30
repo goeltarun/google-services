@@ -49,6 +49,7 @@ public class SignInActivity extends AppCompatActivity implements
         // profile. ID and basic profile are included in DEFAULT_SIGN_IN.
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
+                .setAccountName("tarun.1982@gmail.com")
                 .build();
         // [END configure_signin]
 
